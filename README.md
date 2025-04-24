@@ -75,11 +75,11 @@ Backend system application built with NestJS. Includes user authentication, logg
 
   
 
--  **AUTHENTICATION** - AUTH.
+-  **AUTHENTICATION**
 
   
 
--  **CRUD** - CRUD.
+-  **CRUD**
 
   
 
