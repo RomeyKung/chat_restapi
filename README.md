@@ -103,8 +103,6 @@ Backend system application built with NestJS. Includes user authentication, logg
 git  clone  https://github.com/RomeyKung/chat_restapi.git
 
 cd  chat_restapi
-
-docker-compose  up  -d
 ```
 
   
@@ -113,6 +111,7 @@ docker-compose  up  -d
 
 
 ```bash
+docker-compose  up  -d
 
 pnpm  run  install
 
