@@ -56,7 +56,6 @@ export class UserService {
         },
       });
     } catch (error) {
-      console.log(error);
       if (error.code === 'P2025') {
         throw new NotFoundException('Not found user.');
       }
@@ -76,7 +75,6 @@ export class UserService {
         },
       });
     } catch (error) {
-      console.log(error);
       if (error.code === 'P2002') {
         throw new UnprocessableEntityException(
           'Email or Display Name already exists.',
