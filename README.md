@@ -100,11 +100,11 @@ Backend system application built with NestJS. Includes user authentication, logg
   
 
 ```bash
-docker-compose  up  -d
-
 git  clone  https://github.com/RomeyKung/chat_restapi.git
 
 cd  chat_restapi
+
+docker-compose  up  -d
 ```
 
   
