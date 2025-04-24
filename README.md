@@ -134,16 +134,17 @@ http://localhost:3001/api
 ```
 
 ## Project Structure 
-chatapp-backend/
-└── src/
-├── app.controller.ts
-├── app.module.ts
-├── app.service.ts
-├── main.ts
-├── auth/ # Login/Auth strategy
-├── user/ # Register/RUD functionality
-├── common/ # Guards, decorators, exceptions
-├── prisma/ # Prisma client instance
+
+    chatapp-backend/
+    └── src/
+    ├── app.controller.ts
+    ├── app.module.ts
+    ├── app.service.ts
+    ├── main.ts
+    ├── auth/ # Login/Auth strategy
+    ├── user/ # Register/RUD functionality
+    ├── common/ # Guards, decorators, exceptions
+    ├── prisma/ # Prisma client instance
 
   
 
